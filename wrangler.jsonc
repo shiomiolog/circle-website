@@ -7,6 +7,13 @@
         "binding": "ASSETS",
         "directory": "./.output/public/"
     },
+    // ▼ カスタムドメインの設定を追加
+    "routes": [
+        {
+            "pattern": "circle.shiomiolog.com",
+            "custom_domain": true
+        }
+    ],
     "d1_databases": [
         {
             "binding": "DB",
