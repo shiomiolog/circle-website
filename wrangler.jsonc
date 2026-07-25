@@ -10,8 +10,8 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "your-db-name",
-            "database_id": "your-database-id"
+            "database_name": "db",
+            "database_id": "7d17006c-2789-4768-b861-e7bcaad80bce"
         }
     ],
     "compatibility_flags": [
