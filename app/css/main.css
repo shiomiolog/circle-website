@@ -1,0 +1,4 @@
+/* assets/css/main.css */
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
