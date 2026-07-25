@@ -1,5 +1,10 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
+  // Cloudflare Workers (Assets) 用の最新ビルドプリセットを指定
+  nitro: {
+    preset: 'cloudflare-module'
+  },
+
   app: {
     head: {
       // サイトのデフォルトタイトル
@@ -27,11 +32,13 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/icon'
   ],
+
   content: {
     sources: {
       content: {
@@ -40,5 +47,6 @@ export default defineNuxtConfig({
       }
     }
   },
+
   compatibilityDate: '2024-07-24',
 })
